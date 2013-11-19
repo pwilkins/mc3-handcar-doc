@@ -43,7 +43,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'doc_home'
+master_doc = 'index'
 
 # General information about the project.
 project = u'mc3-handcar-api'
@@ -199,7 +199,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('doc_home', 'mc3-handcar-api.tex', u'mc3-handcar-api Documentation',
+  ('index', 'mc3-handcar-api.tex', u'mc3-handcar-api Documentation',
    u'MIT', 'manual'),
 ]
 
@@ -229,7 +229,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('doc_home', 'mc3-handcar-api', u'mc3-handcar-api Documentation',
+    ('index', 'mc3-handcar-api', u'mc3-handcar-api Documentation',
      [u'MIT'], 1)
 ]
 
@@ -243,7 +243,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('doc_home', 'mc3-handcar-api', u'mc3-handcar-api Documentation',
+  ('index', 'mc3-handcar-api', u'mc3-handcar-api Documentation',
    u'MIT', 'mc3-handcar-api', 'One line description of project.',
    'Miscellaneous'),
 ]

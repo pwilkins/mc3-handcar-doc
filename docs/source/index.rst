@@ -24,6 +24,7 @@ Contents:
    admin_delete
    authentication
    authorization
+   relationships
 
 Indices and tables
 ==================
