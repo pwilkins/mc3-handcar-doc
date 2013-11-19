@@ -6,13 +6,13 @@ Touchstone to perform the authentication the other uses AGENT KEYS.
  Each has it’s own URL.  
 
 -  The Touchstone one is
-    `https://oki-dev.mit.edu/handcar-authn/services/learning/ <https://oki-dev.mit.edu/handcar-authn/services/learning/>`__
+    `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
 -  Note the “handar-authn” in the above url.   This url has been
    configured to require the user to log in via Touchstone.
 
 -  The Agent Key one is
-   `https://oki-dev.mit.edu/handcar/services/learning/ <https://oki-dev.mit.edu/handcar/services/learning/>`__
+   `https://mc3-demo.mit.edu/handcar/services/learning/ <https://mc3-demo.mit.edu/handcar/services/learning/>`__
 
 -  This url has been configured to allow any users to connect to the
    service as a GUEST “MC3GUE$T”.
@@ -186,7 +186,7 @@ Authenticating to Handcar via Touchstone
 ----------------------------------------
 
 The url is
- `https://oki-dev.mit.edu/handcar-authn/services/learning/ <https://oki-dev.mit.edu/handcar-authn/services/learning/>`__
+ `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
 Note the “handar-authn” in the above url.   This url has been configured
 to required the user to log in via Touchstone.
@@ -214,7 +214,7 @@ Authenticating to Handcar using Agent Keys
 ------------------------------------------
 
 When you go to the learning service via this URL
-`https://oki-dev.mit.edu/handcar/services/learning/ <https://oki-dev.mit.edu/handcar/services/learning/>`__ 
+`https://mc3-demo.mit.edu/handcar/services/learning/ <https://mc3-demo.mit.edu/handcar/services/learning/>`__ 
 it has configured to allow in any users to connect to the service as a
 GUEST “MC3GUE$T”.  Handcar then uses “agent keys” or tokens to identify
 users and grant access to it’s resources.  If you do not have any keys
@@ -286,7 +286,7 @@ The sequence goes something like this:
 #. handcar/services/authentication/agentkeys/{agentId}?duration={SSSS}?proxyname={application
    key}
 #. See Handcar contractdoc `construct key for
-   agent <https://oki-dev.mit.edu/handcar/contractdocs/HandcarAuthenticationService.html#HandcarAuthentication-constructKeyForAgent>`__
+   agent <https://mc3-demo.mit.edu/handcar/contractdocs/HandcarAuthenticationService.html#HandcarAuthentication-constructKeyForAgent>`__
 
 3. The application then uses that new key on behalf of the user to make
    calls to handcar
@@ -328,13 +328,13 @@ the optional “proxyname” query parameter
 Example #1 Construct an Agent for a user
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/nwright <https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/nwright>`__
+`https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/nwright <https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/nwright>`__
 
 TODO: construct a curl example
 
 Example #2 Check if an Agent Key is (still) valid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT\_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX <https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX>`__
+`https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT\_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX <https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX>`__
 
 TODO: construct a curl example

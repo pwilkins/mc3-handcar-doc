@@ -15,7 +15,7 @@ Basic Lookup
 Example #1 Get a list of all objective banks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks>`__ 
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks>`__ 
 
 Example on\ ` Hurl
 It <http://www.hurl.it/hurls/e90060389942ccd3cddd50045a0a7925065dd297/7945e28ff26be22b0a12d6ce0a20698aa3c56343>`__
@@ -23,7 +23,7 @@ It <http://www.hurl.it/hurls/e90060389942ccd3cddd50045a0a7925065dd297/7945e28ff2
 Example #2 Get the details of a particular objective bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT>`__ 
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT>`__ 
 
 Looking up objects within a bank
 --------------------------------
@@ -31,17 +31,17 @@ Looking up objects within a bank
 Example #1 Finding all objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 Example #2 Finding all activities within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities>`__
 
 Example #3 Finding all assets tied to a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets>`__
 
 Configuration Data
 ------------------
@@ -56,7 +56,7 @@ Bloom’s taxonomy.
 Example #1 Finding all the allowed objective types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective>`__
 
 Should return three types, one for TOPIC, one for OUTCOMEs and one for a
 special type called “GENERIC OUTCOME”
@@ -72,22 +72,22 @@ Note: in the literature this is called the “Cognitive Process” scale and
 the “Knowledge Category” scale.  see this
 `handout <http://www.google.com/url?q=http%3A%2F%2Fwww.celt.iastate.edu%2Fpdfs-docs%2Fteaching%2FRevisedBloomsHandout.pdf&sa=D&sntz=1&usg=AFQjCNHdUp-E85rfxZQ1bm-1ItkOiwXGKg>`__ 
 from Iowa State University.  See
-`https://oki-dev.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html <https://oki-dev.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html>`__
+`https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html <https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html>`__
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess>`__
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory>`__
 
 Example #3 Getting a description of the grades used in the bloom types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This gets all the grades
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades>`__
 
 This gets information on a particular grade
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT>`__
 
 Right now this is the only configuration that varies by objective bank.
  Crosslinks banks just have LEARN and APPLY. The EDC bank has no grades
@@ -122,7 +122,7 @@ Final note:
 Example #4 Finding all the activity types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity>`__
 
 Note: Right now there is three broad types of activities supported ASSET
 BASED, ASSESSMENT BASED and COURSE BASED but the only one currently in
@@ -131,7 +131,7 @@ use is the ASSET BASED.
 Example #5 Finding all the asset types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets>`__
 
 Note: Right now there is only one asset type is supported it is an asset
 that points to a URL.
@@ -139,7 +139,7 @@ that points to a URL.
 Example #6 Finding all the asset content (mime) types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent>`__
 
 Note: There is a special type for UNKNOWN  FORMAT TYPE.  that you can
 use if you don’t know the mime type of the asset.
@@ -151,37 +151,37 @@ for movings and JPG for sound.
 Example #7 Get a list of all known types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/types/ <https://oki-dev.mit.edu/handcar-authn/services/learning/types/>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/types/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/types/>`__
 
 Example #8 Get a list of objective bank types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus>`__
 
 Example #9 Get a list of Display Text Language Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages>`__
 
 Get the default (english for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default>`__
 
 Example #10 Get a list of Display Text Script Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts>`__
 
 Get the default (latin for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default>`__
 
 Example #11 Get a list of Display Text Format Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats>`__
 
 Get the default (latin for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default>`__
 

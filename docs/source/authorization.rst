@@ -126,14 +126,14 @@ because it is read-only.
 
 This is the contractdocs for the authorization hints:
 
-`https://oki-dev.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html <https://oki-dev.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html <https://mc3-demo.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html>`__
 
 Example #1 getting authorization hints for MC3GUE$T for the Chembridge bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This shows that GUEST can read Chembridge data but not update it.
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization>`__
 
 Example #2 getting your own authorization hints for the Chembridge bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,5 +141,5 @@ Example #2 getting your own authorization hints for the Chembridge bank
 Note that since this URL requires authorization it shows you your own
 personal access to chembridge
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization>`__
 

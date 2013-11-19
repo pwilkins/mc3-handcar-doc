@@ -431,7 +431,7 @@ Detailed documentation on all of the methods and data elements is
 contained in “Contract Docs” which fully explain the contract.
 
 See
-`http://oki-dev.mit.edu/handcar/contractdocs/ <http://oki-dev.mit.edu/handcar/contractdocs/>`__
+`http://mc3-demo.mit.edu/handcar/contractdocs/ <http://mc3-demo.mit.edu/handcar/contractdocs/>`__
 
 --------------
 
@@ -467,7 +467,7 @@ Banks contain three main types of objects:
    asset can have a thumbnail representation and full size JPG versions
    of the same picture.
 
--  `Relationships <https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html>`__ --
+-  `Relationships <https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html>`__ --
    Alternative View of Relationships between objectives, see `The
    Relationship Service <#h.cf029iro3bkl>`__
 
@@ -476,7 +476,7 @@ organize and categorize these three main objects.
 
 For a detailed description of each of these objects and data fields see
 the `Contract
-Documentation <http://oki-dev.mit.edu/handcar/contractdocs/>`__
+Documentation <http://mc3-demo.mit.edu/handcar/contractdocs/>`__
 
 What is the base URL for Handcar?
 =================================
@@ -529,7 +529,7 @@ Basic Lookup
 Example #1 Get a list of all objective banks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks>`__ 
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks>`__ 
 
 Example on\ ` Hurl
 It <http://www.hurl.it/hurls/e90060389942ccd3cddd50045a0a7925065dd297/7945e28ff26be22b0a12d6ce0a20698aa3c56343>`__
@@ -537,7 +537,7 @@ It <http://www.hurl.it/hurls/e90060389942ccd3cddd50045a0a7925065dd297/7945e28ff2
 Example #2 Get the details of a particular objective bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT>`__ 
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT>`__ 
 
 Looking up objects within a bank
 --------------------------------
@@ -545,17 +545,17 @@ Looking up objects within a bank
 Example #1 Finding all objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 Example #2 Finding all activities within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities>`__
 
 Example #3 Finding all assets tied to a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets>`__
 
 Configuration Data
 ------------------
@@ -570,7 +570,7 @@ Bloom’s taxonomy.
 Example #1 Finding all the allowed objective types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective>`__
 
 Should return three types, one for TOPIC, one for OUTCOMEs and one for a
 special type called “GENERIC OUTCOME”
@@ -586,22 +586,22 @@ Note: in the literature this is called the “Cognitive Process” scale and
 the “Knowledge Category” scale.  see this
 `handout <http://www.google.com/url?q=http%3A%2F%2Fwww.celt.iastate.edu%2Fpdfs-docs%2Fteaching%2FRevisedBloomsHandout.pdf&sa=D&sntz=1&usg=AFQjCNHdUp-E85rfxZQ1bm-1ItkOiwXGKg>`__ 
 from Iowa State University.  See
-`https://oki-dev.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html <https://oki-dev.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html>`__
+`https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html <https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html>`__
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/cognitiveprocess>`__
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory>`__
 
 Example #3 Getting a description of the grades used in the bloom types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This gets all the grades
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades>`__
 
 This gets information on a particular grade
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/grades/mc3.grade.system.cognitive.process.crosslinks%3Amc3.grade.bloom.learn%40MIT-OEIT>`__
 
 Right now this is the only configuration that varies by objective bank.
  Crosslinks banks just have LEARN and APPLY. The EDC bank has no grades
@@ -636,7 +636,7 @@ Final note:
 Example #4 Finding all the activity types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity>`__
 
 Note: Right now there is three broad types of activities supported ASSET
 BASED, ASSESSMENT BASED and COURSE BASED but the only one currently in
@@ -645,7 +645,7 @@ use is the ASSET BASED.
 Example #5 Finding all the asset types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets>`__
 
 Note: Right now there is only one asset type is supported it is an asset
 that points to a URL.
@@ -653,7 +653,7 @@ that points to a URL.
 Example #6 Finding all the asset content (mime) types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent>`__
 
 Note: There is a special type for UNKNOWN  FORMAT TYPE.  that you can
 use if you don’t know the mime type of the asset.
@@ -665,39 +665,39 @@ for movings and JPG for sound.
 Example #7 Get a list of all known types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/types/ <https://oki-dev.mit.edu/handcar-authn/services/learning/types/>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/types/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/types/>`__
 
 Example #8 Get a list of objective bank types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/types/genus>`__
 
 Example #9 Get a list of Display Text Language Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages>`__
 
 Get the default (english for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/languages/default>`__
 
 Example #10 Get a list of Display Text Script Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts>`__
 
 Get the default (latin for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/scripts/default>`__
 
 Example #11 Get a list of Display Text Format Types (and default)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats>`__
 
 Get the default (latin for all the current banks)
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/types/formats/default>`__
 
 --------------
 
@@ -712,24 +712,24 @@ Basic Lookups
 Example #1 Finding all TOPIC objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT>`__
 
 Example #2 Finding all OUTCOME objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT>`__
 
 Example #3 Finding an objective by id within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT>`__
 
 Example #4 Finding an objective by id without knowing it’s bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can also find an objective (given an Id even if you do not know the
 objective bank where it is stored.
-`http://oki-dev.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT>`__
 
 Example #5 Bulk fetching lots of objectives by id
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -738,7 +738,7 @@ If you have a list of ids for objectives in a bank and you want to fetch
 them all at once you can do this by specifying BULK in the url then
 listing the ids as query parameters.
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/bulk?id=objective%3A1%40MIT-OEIT&id=objective%3A14%40MIT-OEIT&id=objective%3A27%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/bulk?id=objective%3A1%40MIT-OEIT&id=objective%3A14%40MIT-OEIT&id=objective%3A27%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/bulk?id=objective%3A1%40MIT-OEIT&id=objective%3A14%40MIT-OEIT&id=objective%3A27%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/bulk?id=objective%3A1%40MIT-OEIT&id=objective%3A14%40MIT-OEIT&id=objective%3A27%40MIT-OEIT>`__
 
 Looking up objectives in a hierarchy
 ------------------------------------
@@ -753,7 +753,7 @@ child children.
 Example #1 Finding the root objectives or just the root ids in the hierarchy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots>`__
 
 This returns the root objectives AND it’s children down to a depth of 10
 levels deep.  This is called an “ObjectiveNode” because contains all the
@@ -769,25 +769,25 @@ You can optionally add a query parameter “descendentlevels” to restrict
 or expand the levels down it goes down.  For example this gets just the
 root objectives with no children.
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/objectives/roots?descendentlevels=0 <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/objectives/roots?descendentlevels=0>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/objectives/roots?descendentlevels=0 <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/objectives/roots?descendentlevels=0>`__
 
 You can also just get the ids of the root objectives
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids>`__
 
 Example #2 Finding an objective’s children or just the ids of it’s children
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children>`__
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
 
 Example #3 Finding an objective’s parent(s) or just the ids of it’s parent(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents>`__
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parentids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parentids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parentids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parentids>`__
 
 Note: most objectives have just ONE parent but the system allows for a
 topic to fall under multiple parents, for example ROBOTICS might have
@@ -796,13 +796,13 @@ both COMPUTER SCIENCE and MECHANICAL ENGINEERING as parents.
 Example #4 Bulk fetching of an objective’s children, grandchildren, great-grandchildren, etc 10 levels deep
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk>`__
 
 You may also optionally specify the depth of the hierarchy to return by
 supplying a query parameter  “?descendentlevels={n}” so that this
 returns just the objective with no children.
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk?descendentlevels=0 <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk?descendentlevels=0>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk?descendentlevels=0 <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children/bulk?descendentlevels=0>`__
 
 Looking up requisite and dependent objectives
 ---------------------------------------------
@@ -817,17 +817,17 @@ Example #1 Finding the beginner objectives or just the beginner ids for the bank
 These are just the objectives in the bank that do not have any REQUISITE
 objectives defined.
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners>`__
 
 This gets the beginner objectives down to 10 levels deep to restrict or
 increase the levels you can add an optional query parameter
 “descendentlevels”
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0 <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0 <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0>`__
 
 You can also just get the begnner ids.
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids>`__
 
 Example #2 Finding an objective’s immediately preceding requisite objectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -835,21 +835,21 @@ Example #2 Finding an objective’s immediately preceding requisite objectives
 For example: Anti-derivative has three requisites: Function, Derivative,
 and Differential
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisites <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisites>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisites <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisites>`__
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids>`__
 
 Example #3 Finding the objectives that are immediately dependent on a particular objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents>`__
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependentids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependentids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependentids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependentids>`__
 
 Example #4 Bulk fetching of an objective’s dependents, that dependent’s dependent’s, etc 10 levels deep
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk>`__
 
 Note: it returns that single objective but also with three extra fields:
 
@@ -863,7 +863,7 @@ You may also optionally specify the depth of the hierarchy to return by
 supplying a query parameter “?descendentlevels={n}” like this so that
 this returns just the objective with no dependents.
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk?descendentlevels=0 <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk?descendentlevels=0>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk?descendentlevels=0 <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/dependents/bulk?descendentlevels=0>`__
 
 Activities
 ==========
@@ -874,27 +874,27 @@ Basic Lookup
 Example #1 Fetch all the activities in the bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities>`__
 
 Example #2 Fetch all the activities for an objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives/mc3-objective%3A235%40MIT-OEIT/activities <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives/mc3-objective%3A235%40MIT-OEIT/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives/mc3-objective%3A235%40MIT-OEIT/activities <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives/mc3-objective%3A235%40MIT-OEIT/activities>`__
 
 Example #3 Fetch a particular activity by ID
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT>`__
 
 Example #4 Fetch a Particular Activity Without Specifying the Bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/activities/mc3-activity%3A222%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/activities/mc3-activity%3A222%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/activities/mc3-activity%3A222%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/activities/mc3-activity%3A222%40MIT-OEIT>`__
 
 Example #5 Bulk Fetch Activities by specifying multiple IDs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/bulk?id=activity%3A1%40MIT-OEIT&id=activity%3A2%40MIT-OEIT&id=activity%3A3%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/bulk?id=activity%3A1%40MIT-OEIT&id=activity%3A2%40MIT-OEIT&id=activity%3A3%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/bulk?id=activity%3A1%40MIT-OEIT&id=activity%3A2%40MIT-OEIT&id=activity%3A3%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/bulk?id=activity%3A1%40MIT-OEIT&id=activity%3A2%40MIT-OEIT&id=activity%3A3%40MIT-OEIT>`__
 
 Looking up related objects
 --------------------------
@@ -908,7 +908,7 @@ Activity object!
 Example #2 Fetch a Particular Activity’s Assets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT/assets <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT/assets>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT/assets <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/activities/mc3-activity%3A222%40MIT-OEIT/assets>`__
 
 Assets
 ======
@@ -919,11 +919,11 @@ Basic Lookup
 Example #1 Fetch all Assets associated with an objective bank optionally restricted by Genus type(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets>`__
 
 or
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets?genusTypeId=mc3-asset%3Amc3.learning.asset.url%40MIT-OEI <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets?genusTypeId=mc3-asset%3Amc3.learning.asset.url%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets?genusTypeId=mc3-asset%3Amc3.learning.asset.url%40MIT-OEI <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets?genusTypeId=mc3-asset%3Amc3.learning.asset.url%40MIT-OEIT>`__
 
 you can also bulk fetch assets using multiple Genus types by adding
 “&genustypeid={genusTypeId2}” etc.
@@ -931,17 +931,17 @@ you can also bulk fetch assets using multiple Genus types by adding
 Example #2 Fetch a particular asset from a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A251%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A251%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A251%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A251%40MIT-OEIT>`__
 
 Example #3 Fetch a particular asset without Specifying Bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT>`__
 
 Example #4 Bulk Fetch Multiple Particular Assets Within an Objective Bank by ID
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank:1@MIT-OEIT/assets/bulk?id=mc3-asset%3A38%40MIT-OEIT&id=mc3-asset%3A39%40MIT-OEIT&id=mc3-asset%3A40%40MIT-OEIT&id=mc3-asset%3A41%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank:1@MIT-OEIT/assets/bulk?id=mc3-asset%3A38%40MIT-OEIT&id=mc3-asset%3A39%40MIT-OEIT&id=mc3-asset%3A40%40MIT-OEIT&id=mc3-asset%3A41%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank:1@MIT-OEIT/assets/bulk?id=mc3-asset%3A38%40MIT-OEIT&id=mc3-asset%3A39%40MIT-OEIT&id=mc3-asset%3A40%40MIT-OEIT&id=mc3-asset%3A41%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank:1@MIT-OEIT/assets/bulk?id=mc3-asset%3A38%40MIT-OEIT&id=mc3-asset%3A39%40MIT-OEIT&id=mc3-asset%3A40%40MIT-OEIT&id=mc3-asset%3A41%40MIT-OEIT>`__
 
 Example #5 Fetch a Particular Objective Asset’s Branding Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -957,26 +957,29 @@ multiple objective banks.
 You can find an Objective, Activity, or Asset by Id even if you do not
 know the objective bank where it is stored.
 
+Examples
+--------
+
 Example #1 Finding an objective by id without specifying its bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectives/objective%3A1%40MIT-OEIT>`__
 
 Example #2 Finding an activity by id without specifying its bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/activities/activity%3A1%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/activities/activity%3A1%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/activities/activity%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/activities/activity%3A1%40MIT-OEIT>`__
 
 Example #3 Finding an asset by id without specifying its bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT <http://oki-dev.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/assets/activity%3A251%40MIT-OEIT>`__
 
 Extension Records
 =================
 
 What is an extension record?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Extension records allow you to store and retrieve any arbitrary
 information you want in a list of name/value pairs.  You may also
@@ -1000,33 +1003,33 @@ record, update the bean adding or updating your name value pairs and
 then issuing a PUT on the same URL.
 
 See
-`ExtensionRecordBean <https://oki-dev.mit.edu/handcar/contractdocs/ExtensionRecordBean.html>`__\ for
+`ExtensionRecordBean <https://mc3-demo.mit.edu/handcar/contractdocs/ExtensionRecordBean.html>`__\ for
 more detailed documentation
 
 Example #1 Fetch a Particular Objective Bank’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
 
 Example #2 Fetch a Particular Objective’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
 
 Example #3 Fetch a Particular Activity’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension>`__
 
 Example #4 Fetch a Particular Asset’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension>`__
 
 Example #5 Fetch a Particular Asset Content’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension>`__
 
 --------------
 
@@ -1228,7 +1231,7 @@ A Json example for creating a sandbox bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks>`__
 
 '{"displayName": {"text": "Your unique name here"}, "genusTypeId":
 "mc3-objectivebank%3Amc3.learning.objectivebank.sandbox%40MIT-OEIT" }’
@@ -1361,7 +1364,7 @@ A JSON Example for creating a topic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"displayName": {"text": "Your topic name here"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.topic%40MIT-OEIT" }’
@@ -1389,7 +1392,7 @@ A Json Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEI <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `T/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEI <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `T/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"description": {"text": "Your outcome here"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.outcome%40MIT-OEIT" }’
@@ -1413,7 +1416,7 @@ A Json Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"description": {"text": "CALCULATED NAME HERE"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.generic.outcome%40MIT-OEIT",
@@ -1431,12 +1434,12 @@ attached you should:
    you just got
 #. POST it back updating the list of child ids
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/ <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/childids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/ <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/childids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
 
 A simple Javascript example for creating an objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/mc3\_testing/index.html <http://oki-dev.mit.edu/mc3_testing/index.html>`__
+`http://mc3-demo.mit.edu/mc3\_testing/index.html <http://mc3-demo.mit.edu/mc3_testing/index.html>`__
 
 A more complete example in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1946,7 +1949,7 @@ Optional Fields:
 
 Issue a POST to
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/activities <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/activities <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"objectiveId": "mc3-objective%3A1%40MIT-OEIT","genusTypeId":
 "mc3-activity%3Amc3.learning.activity.asset.based%40MIT-OEIT"}'
@@ -1969,7 +1972,7 @@ You might also wish to add a name that is calculated as follows:
 A Javascript example
 ~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/mc3\_testing/index.html <http://oki-dev.mit.edu/mc3_testing/index.html>`__
+`http://mc3-demo.mit.edu/mc3\_testing/index.html <http://mc3-demo.mit.edu/mc3_testing/index.html>`__
 
 If the Activity is successfully created, the new Activity Bean is
 returned with its newly assigned ID.
@@ -2200,7 +2203,7 @@ Optional Fields:
 
 Issue a POST to
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/assets <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/assets <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"genusTypeId":
 "mc3-asset%3Amc3.learning.asset.url%40MIT-OEIT","assetContents":
@@ -2217,7 +2220,7 @@ Example #1 Delete an Objective Bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2250,7 +2253,7 @@ Example #1 Delete an Objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectives/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectives/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2276,7 +2279,7 @@ Example #1 Delete an Activity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/activities <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/activities <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2299,7 +2302,7 @@ Example #1 Delete an Asset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/assets/ <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/assets/ <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2328,7 +2331,7 @@ You delete an asset content by simply removing it from inside of the
 asset and updating the asset
 
 PUT
-`https://oki-dev.mit.edu/handcar/services/learning/assets/ <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/assets/ <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2351,7 +2354,7 @@ Delete a Relationship
 Example #1 Delete a Relationship
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -2372,13 +2375,13 @@ Touchstone to perform the authentication the other uses AGENT KEYS.
  Each has it’s own URL.  
 
 -  The Touchstone one is
-    `https://oki-dev.mit.edu/handcar-authn/services/learning/ <https://oki-dev.mit.edu/handcar-authn/services/learning/>`__
+    `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
 -  Note the “handar-authn” in the above url.   This url has been
    configured to require the user to log in via Touchstone.
 
 -  The Agent Key one is
-   `https://oki-dev.mit.edu/handcar/services/learning/ <https://oki-dev.mit.edu/handcar/services/learning/>`__
+   `https://mc3-demo.mit.edu/handcar/services/learning/ <https://mc3-demo.mit.edu/handcar/services/learning/>`__
 
 -  This url has been configured to allow any users to connect to the
    service as a GUEST “MC3GUE$T”.
@@ -2551,7 +2554,7 @@ Authenticating to Handcar via Touchstone
 ----------------------------------------
 
 The url is
- `https://oki-dev.mit.edu/handcar-authn/services/learning/ <https://oki-dev.mit.edu/handcar-authn/services/learning/>`__
+ `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
 Note the “handar-authn” in the above url.   This url has been configured
 to required the user to log in via Touchstone.
@@ -2579,7 +2582,7 @@ Authenticating to Handcar using Agent Keys
 ------------------------------------------
 
 When you go to the learning service via this URL
-`https://oki-dev.mit.edu/handcar/services/learning/ <https://oki-dev.mit.edu/handcar/services/learning/>`__ 
+`https://mc3-demo.mit.edu/handcar/services/learning/ <https://mc3-demo.mit.edu/handcar/services/learning/>`__ 
 it has configured to allow in any users to connect to the service as a
 GUEST “MC3GUE$T”.  Handcar then uses “agent keys” or tokens to identify
 users and grant access to it’s resources.  If you do not have any keys
@@ -2651,7 +2654,7 @@ The sequence goes something like this:
 #. handcar/services/authentication/agentkeys/{agentId}?duration={SSSS}?proxyname={application
    key}
 #. See Handcar contractdoc `construct key for
-   agent <https://oki-dev.mit.edu/handcar/contractdocs/HandcarAuthenticationService.html#HandcarAuthentication-constructKeyForAgent>`__
+   agent <https://mc3-demo.mit.edu/handcar/contractdocs/HandcarAuthenticationService.html#HandcarAuthentication-constructKeyForAgent>`__
 
 3. The application then uses that new key on behalf of the user to make
    calls to handcar
@@ -2693,14 +2696,14 @@ the optional “proxyname” query parameter
 Example #1 Construct an Agent for a user
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/nwright <https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/nwright>`__
+`https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/nwright <https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/nwright>`__
 
 TODO: construct a curl example
 
 Example #2 Check if an Agent Key is (still) valid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT\_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX <https://oki-dev.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX>`__
+`https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT\_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX <https://mc3-demo.mit.edu/handcar/services/authentication/agentkeys/check/active/AGENT_KEYS6joWZkxqzi5H3Mu3ULGfviSF92D7BO2oRkaFo0VL1LXTQ6X2qbHgX6VQ4wEn%2BIX>`__
 
 TODO: construct a curl example
 
@@ -2832,14 +2835,14 @@ because it is read-only.
 
 This is the contractdocs for the authorization hints:
 
-`https://oki-dev.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html <https://oki-dev.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html <https://mc3-demo.mit.edu/handcar/contractdocs/AuthorizationHintsBean.html>`__
 
 Example #1 getting authorization hints for MC3GUE$T for the Chembridge bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This shows that GUEST can read Chembridge data but not update it.
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A2%40MIT-OEIT/authorization>`__
 
 Example #2 getting your own authorization hints for the Chembridge bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2847,7 +2850,7 @@ Example #2 getting your own authorization hints for the Chembridge bank
 Note that since this URL requires authorization it shows you your own
 personal access to chembridge
 
-`https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization <https://oki-dev.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization>`__
+`https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization <https://mc3-demo.mit.edu/handcar-authn/services/learning/objectivebanks/mc3-objectivebank:2@MIT-OEIT/authorization>`__
 
 --------------
 
@@ -2872,7 +2875,7 @@ are working with.  So the pattern is to:
    objectives in the bank
 
 See
-`https://oki-dev.mit.edu/handcar/contractdocs/HandcarRelationshipService.html <https://oki-dev.mit.edu/handcar/contractdocs/HandcarRelationshipService.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/HandcarRelationshipService.html <https://mc3-demo.mit.edu/handcar/contractdocs/HandcarRelationshipService.html>`__
 
 Objectives have the following known types relationships:
 
@@ -2893,7 +2896,7 @@ Each Relationship is an object that contains the following information:
 #. Destination id
 
 See
-`https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html <https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html <https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html>`__
 
 If I can do pretty much everything I need via the learning service, why would I use the relationship service?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2958,35 +2961,35 @@ Basic Lookup
 Example #1 Getting the Family Id for the corresponding Objective Bank Id and vice versa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 and vice versa (in case you need to go back)
 
-`https://oki-dev.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT>`__
 
 Example #2 Get a list of all the families of relationships
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families <https://oki-dev.mit.edu/handcar/services/relationship/families>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families <https://mc3-demo.mit.edu/handcar/services/relationship/families>`__
 
 Example #3 Get a single family by Id
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT>`__
 
 Example #4 Get a list of all of all relationships in a family, optionally by relationship type
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships>`__
 
 To specify the type or types just add the query parameter for that type
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT>`__
 
 Example #5 Get a particular relationship
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT>`__
 
 MC3 handcar service was created and is supported by MIT’s Office of
 Educational Innovation and Technology

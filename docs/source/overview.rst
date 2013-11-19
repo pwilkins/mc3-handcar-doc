@@ -33,7 +33,7 @@ Detailed documentation on all of the methods and data elements is
 contained in “Contract Docs” which fully explain the contract.
 
 See
-`http://oki-dev.mit.edu/handcar/contractdocs/ <http://oki-dev.mit.edu/handcar/contractdocs/>`__
+`http://mc3-demo.mit.edu/handcar/contractdocs/ <http://mc3-demo.mit.edu/handcar/contractdocs/>`__
 
 --------------
 
@@ -69,7 +69,7 @@ Banks contain three main types of objects:
    asset can have a thumbnail representation and full size JPG versions
    of the same picture.
 
--  `Relationships <https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html>`__ --
+-  `Relationships <https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html>`__ --
    Alternative View of Relationships between objectives, see `The
    Relationship Service <#h.cf029iro3bkl>`__
 
@@ -78,4 +78,4 @@ organize and categorize these three main objects.
 
 For a detailed description of each of these objects and data fields see
 the `Contract
-Documentation <http://oki-dev.mit.edu/handcar/contractdocs/>`__
+Documentation <http://mc3-demo.mit.edu/handcar/contractdocs/>`__

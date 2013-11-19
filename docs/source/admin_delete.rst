@@ -8,7 +8,7 @@ Example #1 Delete an Objective Bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -41,7 +41,7 @@ Example #1 Delete an Objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectives/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectives/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -67,7 +67,7 @@ Example #1 Delete an Activity
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/activities <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/activities <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -90,7 +90,7 @@ Example #1 Delete an Asset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/assets/ <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/assets/ <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -119,7 +119,7 @@ You delete an asset content by simply removing it from inside of the
 asset and updating the asset
 
 PUT
-`https://oki-dev.mit.edu/handcar/services/learning/assets/ <https://oki-dev.mit.edu/handcar/services/learning/activities>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/assets/ <https://mc3-demo.mit.edu/handcar/services/learning/activities>`__
 
 TODO: create an example in cURL or HURLit
 
@@ -142,7 +142,7 @@ Delete a Relationship
 Example #1 Delete a Relationship
 
 DELETE
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 TODO: create an example in cURL or HURLit
 

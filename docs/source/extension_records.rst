@@ -26,31 +26,31 @@ record, update the bean adding or updating your name value pairs and
 then issuing a PUT on the same URL.
 
 See
-`ExtensionRecordBean <https://oki-dev.mit.edu/handcar/contractdocs/ExtensionRecordBean.html>`__\ for
+`ExtensionRecordBean <https://mc3-demo.mit.edu/handcar/contractdocs/ExtensionRecordBean.html>`__\ for
 more detailed documentation
 
 Example #1 Fetch a Particular Objective Bank’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
 
 Example #2 Fetch a Particular Objective’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/extension>`__
 
 Example #3 Fetch a Particular Activity’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities/activity%3A1%40MIT-OEIT/extension>`__
 
 Example #4 Fetch a Particular Asset’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/extension>`__
 
 Example #5 Fetch a Particular Asset Content’s Extension Record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A2%40MIT-OEIT/assets/activity%3A444%40MIT-OEIT/assetcontent/activity%3A444%40MIT-OEIT/extension>`__
 

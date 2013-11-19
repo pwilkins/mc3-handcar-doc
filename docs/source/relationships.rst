@@ -19,7 +19,7 @@ are working with.  So the pattern is to:
    objectives in the bank
 
 See
-`https://oki-dev.mit.edu/handcar/contractdocs/HandcarRelationshipService.html <https://oki-dev.mit.edu/handcar/contractdocs/HandcarRelationshipService.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/HandcarRelationshipService.html <https://mc3-demo.mit.edu/handcar/contractdocs/HandcarRelationshipService.html>`__
 
 Objectives have the following known types relationships:
 
@@ -40,7 +40,7 @@ Each Relationship is an object that contains the following information:
 #. Destination id
 
 See
-`https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html <https://oki-dev.mit.edu/handcar/contractdocs/RelationshipBean.html>`__
+`https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html <https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html>`__
 
 If I can do pretty much everything I need via the learning service, why would I use the relationship service?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,33 +105,33 @@ Basic Lookup
 Example #1 Getting the Family Id for the corresponding Objective Bank Id and vice versa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/familyidforbank/mc3-objectivebank%3A1%40MIT-OEIT>`__
 
 and vice versa (in case you need to go back)
 
-`https://oki-dev.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/bankidforfamily/mc3-family%3A1%40MIT-OEIT>`__
 
 Example #2 Get a list of all the families of relationships
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families <https://oki-dev.mit.edu/handcar/services/relationship/families>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families <https://mc3-demo.mit.edu/handcar/services/relationship/families>`__
 
 Example #3 Get a single family by Id
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT>`__
 
 Example #4 Get a list of all of all relationships in a family, optionally by relationship type
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships>`__
 
 To specify the type or types just add the query parameter for that type
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships?genustypeid=mc3-relationship%3Amc3.lo.2.lo.requisite%40MIT-OEIT>`__
 
 Example #5 Get a particular relationship
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT>`__
+`https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/relationship/families/mc3-family%3A1%40MIT-OEIT/relationships/mc3-relationship%3A1%40MIT-OEIT>`__
 

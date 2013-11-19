@@ -197,7 +197,7 @@ A Json example for creating a sandbox bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks>`__
 
 '{"displayName": {"text": "Your unique name here"}, "genusTypeId":
 "mc3-objectivebank%3Amc3.learning.objectivebank.sandbox%40MIT-OEIT" }’
@@ -330,7 +330,7 @@ A JSON Example for creating a topic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"displayName": {"text": "Your topic name here"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.topic%40MIT-OEIT" }’
@@ -358,7 +358,7 @@ A Json Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEI <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `T/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEI <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `T/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"description": {"text": "Your outcome here"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.outcome%40MIT-OEIT" }’
@@ -382,7 +382,7 @@ A Json Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/objectives <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"description": {"text": "CALCULATED NAME HERE"}, "genusTypeId":
 "mc3-objective%3Amc3.learning.generic.outcome%40MIT-OEIT",
@@ -400,12 +400,12 @@ attached you should:
    you just got
 #. POST it back updating the list of child ids
 
-`http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/ <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/childids <http://oki-dev.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
+`http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/ <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/childids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
 
 A simple Javascript example for creating an objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/mc3\_testing/index.html <http://oki-dev.mit.edu/mc3_testing/index.html>`__
+`http://mc3-demo.mit.edu/mc3\_testing/index.html <http://mc3-demo.mit.edu/mc3_testing/index.html>`__
 
 A more complete example in Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -915,7 +915,7 @@ Optional Fields:
 
 Issue a POST to
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/activities <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/activities <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"objectiveId": "mc3-objective%3A1%40MIT-OEIT","genusTypeId":
 "mc3-activity%3Amc3.learning.activity.asset.based%40MIT-OEIT"}'
@@ -938,7 +938,7 @@ You might also wish to add a name that is calculated as follows:
 A Javascript example
 ~~~~~~~~~~~~~~~~~~~~
 
-`http://oki-dev.mit.edu/mc3\_testing/index.html <http://oki-dev.mit.edu/mc3_testing/index.html>`__
+`http://mc3-demo.mit.edu/mc3\_testing/index.html <http://mc3-demo.mit.edu/mc3_testing/index.html>`__
 
 If the Activity is successfully created, the new Activity Bean is
 returned with its newly assigned ID.
@@ -1169,7 +1169,7 @@ Optional Fields:
 
 Issue a POST to
 
-`https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/ <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/assets <https://oki-dev.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
+`https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/ <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `mc3-objectivebank%3A1%40MIT-OEIT <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__\ `/assets <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/objectives>`__
 
 '{"genusTypeId":
 "mc3-asset%3Amc3.learning.asset.url%40MIT-OEIT","assetContents":
