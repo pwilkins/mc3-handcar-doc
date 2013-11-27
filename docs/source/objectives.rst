@@ -1,27 +1,27 @@
 Objectives
 ==========
 
-Objectives come in two types: TOPICs and OUTCOMEs.
+Objectives come in three types: TOPICs, OUTCOMEs and GENERIC_OUTCOMEs.
 
-Basic Lookups
+Basic Objective Lookup Examples
 -------------
 
-Example #1 Finding all TOPIC objectives within a bank
+Example #1 Find all TOPIC objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.topic%40MIT-OEIT>`__
 
-Example #2 Finding all OUTCOME objectives within a bank
+Example #2 Find all OUTCOME objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives?genustypeid=mc3-objective%3Amc3.learning.outcome%40MIT-OEIT>`__
 
-Example #3 Finding an objective by id within a bank
+Example #3 Find an objective by id within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT>`__
 
-Example #4 Finding an objective by id without knowing it’s bank
+Example #4 Find an objective by id without knowing its bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can also find an objective (given an Id even if you do not know the
@@ -47,12 +47,12 @@ typical pattern is that topics have parent child relationships, the
 system also supports the creations of outcomes that themselves have
 child children.
 
-Example #1 Finding the root objectives or just the root ids in the hierarchy
+Example #1 Find the root objectives or just the root ids in the hierarchy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/roots>`__
 
-This returns the root objectives AND it’s children down to a depth of 10
+This returns the root objectives AND its children down to a depth of 10
 levels deep.  This is called an “ObjectiveNode” because contains all the
 fields of an objective but also contains three extra fields:
 
@@ -72,14 +72,14 @@ You can also just get the ids of the root objectives
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/rootids>`__
 
-Example #2 Finding an objective’s children or just the ids of it’s children
+Example #2 Find an objective’s children or just the ids of its children
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/children>`__
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/childids>`__
 
-Example #3 Finding an objective’s parent(s) or just the ids of it’s parent(s)
+Example #3 Find an objective’s parent(s) or just the ids of its parent(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A2%40MIT-OEIT/parents>`__
@@ -108,7 +108,7 @@ Objectives can also be organized into chains of pre-REQUISITES.  These
 are objectives that typically must be mastered before attempting to
 master the current objective.
 
-Example #1 Finding the beginner objectives or just the beginner ids for the bank
+Example #1 Find the beginner objectives or just the beginner ids for the bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are just the objectives in the bank that do not have any REQUISITE
@@ -126,7 +126,7 @@ You can also just get the begnner ids.
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids>`__
 
-Example #2 Finding an objective’s immediately preceding requisite objectives
+Example #2 Find an objective’s immediately preceding requisite objectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For example: Anti-derivative has three requisites: Function, Derivative,
@@ -136,7 +136,7 @@ and Differential
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A1%40MIT-OEIT/requisiteids>`__
 
-Example #3 Finding the objectives that are immediately dependent on a particular objective
+Example #3 Find the objectives that are immediately dependent on a particular objective
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/objective%3A134%40MIT-OEIT/dependents>`__

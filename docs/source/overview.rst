@@ -47,21 +47,21 @@ Model Description
 
 Banks contain three main types of objects:
 
--  `Objectives <#h.pzxzpdsydj9e>`__-- Learning Objectives which come in
+-  `Objectives <objectives.html>`__-- Learning Objectives which come in 
    three distinct types:
 
--  Topics -- also called concepts which define an area of knowledge ,
-   typically expressed as NOUNS
--  Outcomes -- which are specific learning goals, typically expressed
-   starting with VERBS
--  Generic Outcomes -- which are outcomes that hold no real data
-   themselves but are there to simply tie together topics and content
-   via a bloom type -- For example if the topic is “Derivative” a
-   generic outcome could be “Learn Derivative”
+    -  **Topics** -- also called concepts which define an area of knowledge ,
+       typically expressed as NOUNS
+    -  **Outcomes** -- which are specific learning goals, typically expressed
+       starting with VERBS
+    -  **Generic Outcomes** -- which are outcomes that hold no real data
+       themselves but are there to simply tie together topics and content
+       via a bloom type -- For example if the topic is “Derivative” a
+       generic outcome could be “Learn Derivative”
 
--  `Activities <#h.bycu3aaffge7>`__ which are tied to objectives - that
+-  `Activities <activities.html>`__ which are tied to objectives - that
    a student may do in order to master the objective
--  `Assets <#h.h08m2wx23t1l>`__ which are tied to activities -- that are
+-  `Assets <assets.html>`__ which are tied to activities -- that are
    typically the content that a student consumes as part of the activity
 
 -  In the model a single asset have multiple “Asset Contents” which may
@@ -71,7 +71,7 @@ Banks contain three main types of objects:
 
 -  `Relationships <https://mc3-demo.mit.edu/handcar/contractdocs/RelationshipBean.html>`__ --
    Alternative View of Relationships between objectives, see `The
-   Relationship Service <#h.cf029iro3bkl>`__
+   Relationship Service <relationships.html>`__
 
 Additionally there are configuration “types” and “grade scales” used to
 organize and categorize these three main objects.
