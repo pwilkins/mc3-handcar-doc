@@ -77,8 +77,7 @@ Additionally there are configuration “types” and “grade scales” used to
 organize and categorize these three main objects.
 
 For a detailed description of each of these objects and data fields see
-the `Contract
-Documentation <http://mc3-demo.mit.edu/handcar/contractdocs/>`__
+the `Contract Documentation <http://mc3-demo.mit.edu/handcar/contractdocs/>`__ 
 
 Implementation Details
 ----------------------
