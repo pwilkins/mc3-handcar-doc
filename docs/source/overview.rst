@@ -2,10 +2,11 @@
 Overview
 ========
 
-This handcar service supports a restful JSON interface to the MC3
-system's learning objectives.  Handcar uses 
-`Moxy <http://wiki.eclipse.org/EclipseLink/Examples/MOXy/MOXy_JSON_Provider>`__ to
-serialize the objects into JSON.
+What is Handcar?
+----------------
+Handcar is a web service that provides a restful JSON interface to the MC3
+system's learning objectives.  To learn more about MC3, see the 
+`MC3 home page <http://mc3.mit.edu/home.html>`__ 
 
 Known issues/Issues under consideration for implementation in future releases
 -----------------------------------------------------------------------------
@@ -78,3 +79,10 @@ organize and categorize these three main objects.
 For a detailed description of each of these objects and data fields see
 the `Contract
 Documentation <http://mc3-demo.mit.edu/handcar/contractdocs/>`__
+
+Implementation Details
+----------------------
+Handcar is a Java Servlet that uses `Jersey <https://jersey.java.net/>`__ to generate a RESTful API.  It uses 
+`Moxy <http://wiki.eclipse.org/EclipseLink/Examples/MOXy/MOXy_JSON_Provider>`__ to
+serialize the objects into JSON.
+

@@ -11,7 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   todos
    overview
    handcar_base_url
    objectivebanks
@@ -25,6 +24,7 @@ Contents:
    authentication
    authorization
    relationships
+   todos
 
 Indices and tables
 ==================

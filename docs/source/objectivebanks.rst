@@ -99,7 +99,7 @@ DoI I have to use Bloom’s Taxonomy?
 No you do not have to use Bloom’s taxonomy.  Bloom categorization of
 objectives is completely optional.
 
-We can accomodate other taxonomies as 
+We can accommodate other taxonomies as 
 well.  If we create an objective bank for you we can also configure it
 with any taxonomy you want.  It can be a subset of Bloom’s, an
 alternative to Bloom’s or it can be configured to allow no taxonomy at

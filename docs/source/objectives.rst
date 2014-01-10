@@ -122,7 +122,7 @@ increase the levels you can add an optional query parameter
 
 `https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0 <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0>`__
 
-You can also just get the begnner ids.
+You can also just get the beginner ids.
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids>`__
 

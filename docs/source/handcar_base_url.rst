@@ -3,7 +3,7 @@ What is the base URL for Handcar?
 
 There are two servers each of which have two URLs
 
-` <#>`__\ ` <#>`__
+` <#>`__ \ ` <#>`__
 
 Guest access or use Agent Keys for authentication
 
@@ -18,7 +18,6 @@ _______________
 -  Cannot create new objective banks
 
 `https://mc3.mit.edu/handcar/ <https://mc3.mit.edu/handcar/>`__
-
 `https://mc3.mit.edu/handcar-authn/ <https://mc3.mit.edu/handcar-authn/>`__
 
 Demo/Test Tier
@@ -30,7 +29,6 @@ ______________
 -  Can create new SANDBOX objective banks
 
 `https://mc3-demo.mit.edu/handcar/ <https://mc3-demo.mit.edu/handcar/>`__
-
 `https://mc3-demo.mit.edu/handcar-authn/ <https://mc3-demo.mit.edu/handcar-authn/>`__
 
 

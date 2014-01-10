@@ -504,7 +504,7 @@ Demo/Test Tier
 
 -  Used for testing and demonstrations
 -  Data is refreshed periodically
--  Uses TEST-ROLES  for authorization
+-  Uses TEST-ROLES for authorization
 -  Can create new SANDBOX objective banks
 
 `https://mc3-demo.mit.edu/handcar/ <https://mc3-demo.mit.edu/handcar/>`__
@@ -825,7 +825,7 @@ increase the levels you can add an optional query parameter
 
 `https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0 <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginners?descendentlevels=0>`__
 
-You can also just get the begnner ids.
+You can also just get the beginner ids.
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives/beginnerids>`__
 
@@ -1227,7 +1227,7 @@ There are only two things you need to supply:
 ==> The Display Name must be unique otherwise the POST will return the
 existing sandbox bank with that name.
 
-A Json example for creating a sandbox bank
+A JSON example for creating a sandbox bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
@@ -1373,7 +1373,7 @@ What information do I need to supply to create an Outcome?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Technically you do not need to supply ANY information except the bank id
-as part of the url and the genus type inside the json object, but you
+as part of the url and the genus type inside the JSON object, but you
 should include:
 
 -  Description
@@ -1388,7 +1388,7 @@ should include:
 -  Note: although Knowledge category is in the literature we have not
    seen much use of it to date.
 
-A Json Example for creating an Outcome
+A JSON Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
@@ -1401,7 +1401,7 @@ What information do I need to supply to create a Generic Outcome?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Technically you do not need to supply ANY information except the bank id
-as part of the url and the genus type inside the json object, but you
+as part of the url and the genus type inside the JSON object, but you
 should:
 
 -  Make it a child of an existing topic
@@ -1412,7 +1412,7 @@ should:
 
 -  Cognitive Process (Remember, Learn, Apply, Analyze, Create)
 
-A Json Example for creating an Outcome
+A JSON Example for creating an Outcome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue a POST with that data to
@@ -1961,7 +1961,7 @@ A generic activity is similar to a regular activity except it indicates
 that the author did not wish to explicitly name the activity.  This
 occurs often where the activities are assumed to be that the student
 would consume some sort of asset, watch video or read a web page.  If
-this is the case you should use the speciay type
+this is the case you should use the special type
 
 mc3-activity%3Amc3.learning.activity.generic%40MIT-OEIT
 
@@ -2377,7 +2377,7 @@ Touchstone to perform the authentication the other uses AGENT KEYS.
 -  The Touchstone one is
     `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
--  Note the “handar-authn” in the above url.   This url has been
+-  Note the “handcar-authn” in the above url.   This url has been
    configured to require the user to log in via Touchstone.
 
 -  The Agent Key one is
@@ -2480,7 +2480,7 @@ Scenario 4  -- application is running on same server as handcar and browser use
 #. Gets routed to touchstone to get authenticated
 #. Gets redirected back to the app after getting authenticated
 #. App sends java script code to browser
-#. Code in browser calls handar-authn using the touchstone cookies and
+#. Code in browser calls handcar-authn using the touchstone cookies and
    not using the agent key
 
 #. User is already authenticated because they are on the same same
@@ -2556,7 +2556,7 @@ Authenticating to Handcar via Touchstone
 The url is
  `https://mc3-demo.mit.edu/handcar-authn/services/learning/ <https://mc3-demo.mit.edu/handcar-authn/services/learning/>`__
 
-Note the “handar-authn” in the above url.   This url has been configured
+Note the “handcar-authn” in the above url.   This url has been configured
 to required the user to log in via Touchstone.
 
 When you access handcar via this URL it redirects you to the Touchstone
