@@ -3,11 +3,11 @@ Objective Banks
 ===============
 
 All data is organized into collections called objective banks.  Right
-now we have several such banks, for example: Crosslinks, ChemBridge, and
+now we have several such banks, for example: Crosslinks, ChemBridge, 
 i2.002 and EDC.  These are projects where MIT professors mapped the
 concepts of their respective domains.  MC3 is a federated system so we
-can add in objectives from other sources easily.  Later we will be
-adding additional banks from within and outside of MIT.
+can add objectives from other sources easily.  Later we will 
+add additional banks from within and outside of MIT.
 
 Basic Lookup
 ------------
@@ -28,17 +28,17 @@ Example #2 Get the details of a particular objective bank
 Looking up objects within a bank
 --------------------------------
 
-Example #1 Finding all objectives within a bank
+Example #1 Find all objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/objectives>`__
 
-Example #2 Finding all activities within a bank
+Example #2 Find all activities within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/activities>`__
 
-Example #3 Finding all assets tied to a bank
+Example #3 Find all assets tied to a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/assets>`__
@@ -49,11 +49,11 @@ Configuration Data
 Each bank is designed to be configured to support different
 categorization schemes and types.
 
-As mentioned above objectives come in two basic varieties or genus
-types: TOPIC and OUTCOMES and the default categorization scheme uses
+As mentioned above objectives come in three basic varieties or genus
+types: TOPIC, OUTCOME, and GENERIC_OUTCOME, and the default categorization scheme uses
 Bloom’s taxonomy.
 
-Example #1 Finding all the allowed objective types
+Example #1 Find all the allowed objective types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/types/genus/objective>`__
@@ -62,15 +62,15 @@ Should return three types, one for TOPIC, one for OUTCOMEs and one for a
 special type called “GENERIC OUTCOME”
 
 Technically the types for objectives, activities and assets can all be
-configured per bank.  In practice, all of our current banks use the same
+configured by bank.  In practice, all of our current banks use the same
 set of types for these kinds of objects.
 
-Example #2 Finding the scaling systems (Bloom’s Taxonomy) used to categorize the objectives
+Example #2 Find the scaling systems (Bloom’s Taxonomy) used to categorize the objectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Note: in the literature this is called the “Cognitive Process” scale and
-the “Knowledge Category” scale.  see this
-`handout <http://www.google.com/url?q=http%3A%2F%2Fwww.celt.iastate.edu%2Fpdfs-docs%2Fteaching%2FRevisedBloomsHandout.pdf&sa=D&sntz=1&usg=AFQjCNHdUp-E85rfxZQ1bm-1ItkOiwXGKg>`__ 
+the “Knowledge Category” scale.  see this 
+`PDF Handout <http://www.celt.iastate.edu/pdfs-docs/teaching/RevisedBloomsHandout.pdf>`__ 
 from Iowa State University.  See
 `https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html <https://mc3-demo.mit.edu/handcar-authn/contractdocs/GradeSystemBean.html>`__
 
@@ -78,7 +78,7 @@ from Iowa State University.  See
 
 `https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory <https://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/mc3-objectivebank%3A1%40MIT-OEIT/gradesystems/knowledgecategory>`__
 
-Example #3 Getting a description of the grades used in the bloom types
+Example #3 Get a description of the grades used in the bloom types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This gets all the grades
@@ -91,7 +91,7 @@ This gets information on a particular grade
 
 Right now this is the only configuration that varies by objective bank.
  Crosslinks banks just have LEARN and APPLY. The EDC bank has no grades
-in it’s scale and the rest have the full Bloom taxonomy.
+in its scale and the rest have the full Bloom taxonomy.
 
 DoI I have to use Bloom’s Taxonomy?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -99,7 +99,7 @@ DoI I have to use Bloom’s Taxonomy?
 No you do not have to use Bloom’s taxonomy.  Bloom categorization of
 objectives is completely optional.
 
-If you want to use a different taxonomy that can be accommodated as
+We can accomodate other taxonomies as 
 well.  If we create an objective bank for you we can also configure it
 with any taxonomy you want.  It can be a subset of Bloom’s, an
 alternative to Bloom’s or it can be configured to allow no taxonomy at
@@ -113,13 +113,13 @@ all.  Some caveats:
 Final note:
 
 -  If you just don’t like the default labeling we used for Bloom then we
-   can configure your bank to use Bloom’s keys use your own labeling
+   can configure your bank to use Bloom’s keys or use your own labeling.
 
 -  For example: you may wish to use the word “Knowledge” instead of
    “Remember” to describe the bloom type but underneath they still point
    to the same Bloom category.
 
-Example #4 Finding all the activity types
+Example #4 Find all the activity types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/activity>`__
@@ -128,7 +128,7 @@ Note: Right now there is three broad types of activities supported ASSET
 BASED, ASSESSMENT BASED and COURSE BASED but the only one currently in
 use is the ASSET BASED.
 
-Example #5 Finding all the asset types
+Example #5 Find all the asset types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assets>`__
@@ -136,7 +136,7 @@ Example #5 Finding all the asset types
 Note: Right now there is only one asset type is supported it is an asset
 that points to a URL.
 
-Example #6 Finding all the asset content (mime) types
+Example #6 Find all the asset content (mime) types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent <http://mc3-demo.mit.edu/handcar/services/learning/objectivebanks/objectivebank%3A1%40MIT-OEIT/types/genus/assetcontent>`__

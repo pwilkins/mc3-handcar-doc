@@ -4,7 +4,7 @@ Objectives
 Objectives come in three types: TOPICs, OUTCOMEs and GENERIC_OUTCOMEs.
 
 Basic Objective Lookup Examples
--------------
+--------------------------------
 
 Example #1 Find all TOPIC objectives within a bank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
